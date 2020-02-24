@@ -17,4 +17,28 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    box-sizing: border-box;
+}
+
+
+.btn-in{
+
+    float: left;
+}
+
+.btn-up{
+
+    float: right;
+}
+
+.btn{
+
+    width: 50%;
+    height: 40px;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
 }
