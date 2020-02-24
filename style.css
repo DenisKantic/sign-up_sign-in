@@ -3,21 +3,23 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Roboto',sans-serif;
-    background: url("image2.jpg");
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("image7.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
     box-sizing: border-box;
 }
 
 .container{
 
     width: 60%;
-    height: 380px;
-    background: #fff;
+    height: 350px;
+    background: #d7e4ec;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     box-sizing: border-box;
+    box-shadow: 6px 6px 26px -4px rgba(0,0,0,0.75);
     
 }
 
@@ -25,17 +27,20 @@ body{
 .btn-in{
 
     float: left;
+    background-color:#d7e4ec;
 }
 
 .btn-up{
 
     float: right;
+    background-color: #20D1AA;
+    color:white;
 }
 
 .btn{
 
     width: 50%;
-    height: 40px;
+    height: 50px;
     outline: none;
     border: none;
     text-align: center;
@@ -43,6 +48,8 @@ body{
     text-transform: uppercase;
     cursor: pointer;
     margin-bottom: 35px;
+    letter-spacing: 1px;
+    font-weight: 600;
 }
 
 .container input{
@@ -50,11 +57,14 @@ body{
     width: 65%;
     margin-left: 17.5%;
     margin-top: 30px;
-    height: 45px;
+    height: 50px;
     border: none;
-    background-color: gray;
     outline: none;
     border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+    background-color: #a5b7c5;
+    letter-spacing: 1px;
     
 }
 
@@ -62,5 +72,31 @@ body{
 
     font-size: 18px;
     margin-left: -30px;
+    color: #515355;
+}
+
+.login-btn{
+
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 30px;
+    height: 35px;
+    outline: none;
+    border: none;
+    background-color: #179579;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-btn:hover{
+
+    background-color: #20D1AA;
+}
+
+input::placeholder{
+
+    color: #f5f5f5;
 }
 
